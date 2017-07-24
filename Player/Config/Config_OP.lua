@@ -15,7 +15,6 @@ end
 
 --Robot CFG should be loaded first to set PID values
 local robotName=unix.gethostname();
-local robotName='172';
 loadconfig('Robot/Config_OP_Robot') 
 loadconfig('Walk/Config_OP_Walk')
 loadconfig('World/Config_OP_World')
